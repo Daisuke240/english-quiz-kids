@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-export default function Home() {
+export default function Page () {
   const successAudioRef = useRef<HTMLAudioElement>(null);
   const failureAudioRef = useRef<HTMLAudioElement>(null);
 
